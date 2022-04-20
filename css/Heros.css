@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font  */
+@font-face {
+  font-family: 'Ranto';
+  src: url(../far_from_homecoming/Updated.otf);
+}
+/* Selecteur UNIV  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variable */
+:root {
+  --red: #B11313;
+  --yellow: #f1c530;
+  --blue: #114c92;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+/* NavBar  */
+nav {
+  display: flex;
+  background: var(--blue);
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8%;
+}
+.logos img {
+  margin: 0 10px;
+}
+.listes {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+}
+.listes a {
+  text-decoration: none;
+  color: var(--white);
+  margin: 0 40px 0 60px;
+}
+
+/* HEADER  */
+header {
+  margin: 0;
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  background-image: url("../Assets/Illustration/img19.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .title {
+  padding-top: 15%;
+  padding-left: 10%;
+}
+.title h1 {
+  font-family: 'Ranto';
+  font-size: 80px;
+}
+.title p {
+  font-size: large;
+}
+/* SECTION  */
+section.valeurs-a-def {
+  background: #114c92;
+  padding: 20px;
+}
+.valeurs-a-def .long-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+.valeurs-a-def h2 {
+  font-family: 'Ranto';
+  font-size: 30px;
+}
+
+.text {
+  inline-size: 800px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+.text span {
+  font-weight: 600;
+}
+.video {
+  width: 560px;
+  height: 415px;
+  overflow: hidden;
+}
+
+/* SECTION SEPARATION   */
+section.section-block {
+  height: auto;
+  min-height: 400px;
+  background: url(Assets/Illustration/img20.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-block .title {
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.tilre h2 {
+  font-family: 'Ranto';
+  font-size: 30px;
+}
+
+/* MAIN  */
+main {
+  height: auto;
+  width: 100vw;
+  background: #114c92;
+  padding: 30px 35px;
+}
+
+/* SECTION JAMAIS SEUL  */
+section.jamais-seul {
+  height: auto;
+}
+.jamais-seul h2 {
+  font-family: 'Ranto';
+  font-size: 30px;
+  font-weight: 300;
+}
+.line {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 520px;
+}
+.image-none {
+  display: none;
+  overflow: hidden;
+  margin: 25px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+}
+.images img {
+  margin: 0 20px 20px 0;
+}
+#index {
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  left: 150px;
+}
+.image img {
+  width: 350px;
+}
+
+.jamais-seul .ligne .text {
+  text-align: justify;
+  inline-size: 520px;
+}
+.jamais-seul .ligne .text h2 {
+  margin-bottom: 20px;
+}
+
+/* SECTION HERO0S  */
+section.heros .hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.avangers {
+  background: #b11313;
+  width: 50%;
+  padding: 20px;
+}
+.avangers h2 {
+  font-family: 'Ranto';
+  margin-bottom: 15px;
+}
+.grid .block-red {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+  padding: 15px;
+}
+.text-1 {
+  text-align: justify;
+  inline-size: 220px;
+}
+.image-avengers{
+  flex-direction: column;
+  display: flex;
+}
+.image-avengers img {
+  margin: 0 65px 10px 0;
+}
+.image-block-avengers {
+  flex-wrap: wrap;
+  justify-content: right;
+  display: flex;
+}
+.image-block-avengers img {
+  margin: 0 0 10px 10px;
+}
+
+.avg {
+  display: flex;
+  width: 50%;
+  flex: 1;
+}
+
+/* SECTION AVENGERS  */
+section.spidy {
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  background: url(/Assets/Illustration/img33.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.univers-block {
+  width: 500px;
+  background: rgb(17, 76, 146, 0.7);
+  padding: 15px;
+  margin: 0 60%;
+  overflow: hidden;
+}
+.univers-block .title {
+  text-align: right;
+}
+.univers-block .text {
+  text-align: justify;
+  min-height: 500px;
+  inline-size: 450px;
+}
+.universblock .title h2 {
+  font-family: 'Ranto';
+  font-size: 30px;
+}
+/* FOOTER  */
+footer {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  min-height: 300px;
+  height: auto;
+  background: #000000;
+  min-width: 500px;
+  color: #ffffff;
+}
+footer .liste {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+}
+footer .item {
+  order: 1;
+}
+footer .none {
+  display: none;
+}
+footer #langue {
+  order: 2;
+}
+footer .container a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .item a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+select {
+  width: 150px;
+  padding: 5px 20px 5px 4px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #b11313;
+  color: #ffffff;
+}
+footer .footer-icone {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin: 100px 0px 15px 0px;
+}
+footer .footer-icone img {
+  background: #b11313;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+/* MEDIA  */
+@media (max-width: 500px) {
+  body{
+    color: rgb(236, 147, 30);
+  }
+}
